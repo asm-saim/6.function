@@ -11,3 +11,20 @@ function evenArray(even) {
 }
 const result = evenArray(numbers);
 console.log(result);
+
+
+//find the biggest number.
+
+const numberArray = [34, 679, 90, 33, 22]
+
+function biggest(bigNumber) {
+    let num1 = bigNumber[0];
+    for (let num of bigNumber) {
+        if (num > num1) {
+            num1 = num;
+        }
+    }
+    return num1;
+
+}
+console.log(biggest(numberArray))
